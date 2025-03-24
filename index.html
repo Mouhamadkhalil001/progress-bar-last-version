@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Progress Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="progress-circle" id="progressCircle">
+        <div class="water" id="water">
+            <svg viewBox="0 0 560 20" class="water-wave">
+                <path d="M0,10 C30,12 70,8 100,10 C130,12 170,8 200,10 C230,12 270,8 300,10 C330,12 370,8 400,10 C430,12 470,8 500,10 C530,12 570,8 600,10 L600,30 L0,30 Z"></path>
+            </svg>
+            <svg viewBox="0 0 560 20" class="water-wave water-wave-2">
+                <path d="M0,10 C30,8 70,12 100,10 C130,8 170,12 200,10 C230,8 270,12 300,10 C330,8 370,12 400,10 C430,8 470,12 500,10 C530,8 570,12 600,10 L600,30 L0,30 Z"></path>
+            </svg>
+        </div>
+        <span class="progress-text" id="progressText">0%</span>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
